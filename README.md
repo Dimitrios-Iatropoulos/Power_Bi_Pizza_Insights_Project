@@ -60,3 +60,35 @@ It's noteworthy to mention that the use of conditional formatting with icons in 
 
 ![Alt text](https://github.com/jimiatro/Power_Bi_Pizza_Project_Insights/blob/main/images/7i.png)
 
+#### Sales Forecasting
+Ιn the Sales Forecasting section, a line chart has been developed to provide insights into the anticipated sales trends for the upcoming months. This graph offers a visualization of sales over time, with the x-axis representing days, months, and years, and the y-axis representing sales figures. A addition to the graph is the inclusion of a forecasted line, extending into the future, supported by a 95% confidence interval. This line enables a visual prediction of sales trends, with projected values for specific dates.
+
+The graph's illustration extends further with the integration of an average line, positioned at the level of $2,300. This reference line provides a clear benchmark  by which to evaluate the sales trajectory. Additionally, you can cleary see both the minimum and maximum points for sales across all dates. This demonstrates the range within which sales have varied, revealing the diversity in customer activity.
+
+Looking into the furure and taking the example of February 20, the forecast predicts a projected sales amount of $2,490. This forecast provides valuable insights for strategic business planning. Furthermore, the graph's visualization aids in identifying potential growth or decline periods, enabling stakeholders to make informed choices.
+
+![Alt text](https://github.com/jimiatro/Power_Bi_Pizza_Project_Insights/blob/main/images/3.png)
+
+#### Sales By Size
+In order to provide a interactive experience, I've added two slicers into the dashboard: the Category Slicer and the Size Slicer. These slicers offer a focused and dynamic way to explore the data. With the Category Slicer, you can delve into sales trends for different pizza categories. On the other hand, the Size Slicer allows you to examine how different pizza sizes impact overall sales performance. These slicers give you the power to tailor your analysis based on your specific interests and questions, making it easier to uncover insights and trends.
+
+![Alt text](https://github.com/jimiatro/Power_Bi_Pizza_Project_Insights/blob/main/images/8.png)
+
+## Suggestions:
+- **Strategic Marketing**: Focusing marketing efforts on top-selling categories like "Classic," "Supreme," and "Chicken" can further boost sales. Special deals or promotions could target these categories to capitalize on customer preferences.
+
+- **Size Emphasis**: Given the popularity of "Large" and "Medium" sizes, the pizzeria could optimize stock and resources for these sizes, ensuring customer satisfaction.
+
+- **Efficiency Observations**: Utilizing the sales forecasting insights, the pizzeria can gain more informed insights into ingredient acquisition, staff scheduling, and production capacity.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+# Feedback #
+I would love to hear your thoughts on my project! If you have any suggestions or comments, please feel free to open an issue or send me an email at jimiatro@hotmail.com.
+
+
+
+
+
