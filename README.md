@@ -58,5 +58,5 @@ Furthermore, in terms of sales value, the "Veggie" category's "Large" size pizza
 
 It's noteworthy to mention that the use of conditional formatting with icons in the "Orders," "Pizzas Sold," and "Sales" columns adds an additional layer of insight to this detailed examination, enabling easy identification of these metrics at a glance.
 
-![Alt text]
+![Alt text](https://github.com/jimiatro/Power_Bi_Pizza_Project_Insights/blob/main/images/7i.png)
 
