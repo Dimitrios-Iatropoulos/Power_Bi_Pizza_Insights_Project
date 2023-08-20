@@ -1,4 +1,4 @@
-# Power_Bi_Pizza_Project_Insights
+# Power_Bi_Pizza_Insights_Project
 Analyzing pizza sales data from a fictional pizzeria using Power BI to uncover trends, customer preferences, and sales patterns. Gain valuable insights into pizza orders, sizes, so we can make business decisions with data-driven analysis.
 # Data Source #
 The dataset used for this project can be found [here](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales) and contains 1 table with 12 relevant features
