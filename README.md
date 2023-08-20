@@ -1,8 +1,8 @@
 # Power_Bi_Pizza_Project_Insights
 Analyzing pizza sales data from a fictional pizzeria using Power BI to uncover trends, customer preferences, and sales patterns. Gain valuable insights into pizza orders, sizes, so we can make business decisions with data-driven analysis.
-## Data Source
+# Data Source #
 The dataset used for this project can be found [here](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales) and contains 1 table with 12 relevant features
-## Data Transformation
+# Data Transformation #
 The following data transformation steps were taken:
 - Replaced values in "pizza_size column" (e.g., M to Medium).
 - Removed "order_time" and "pizza_ingredients" columns as it didn't provide any value to my analysis.
@@ -12,7 +12,7 @@ The following data transformation steps were taken:
 ` calendar = calendar(min(pizza_sales[order_date]), max(pizza_sales[order_date]))`
 -	Established the relationship between the two tables manually.
 
-## DAX Measures
+# DAX Measures #
 The DAX measures formulated for this project are:
 
 1.	Total Orders: `Total Orders = DISTINCTCOUNT(pizza_sales[order_id])`
@@ -20,7 +20,7 @@ The DAX measures formulated for this project are:
 3.	Total Pizzas Sold: `Total Pizzas Sold = sum(pizza_sales[Quantity])`
 4.	Average Order Value: `AOV = [Total Sales]/[Total Orders]`
 
-## Data Analysis and Visualization
+# Data Analysis and Visualization #
 #### Top Metrics
 In the analysis of the fictional pizzeria's top metrics, the total sales for the period reached $817.860, driven by a number of orders totaling 21,350. This resulted in the sale of 49,574 individual pizzas. Furthermore, the calculated average order value stood at $38,31 reflecting a consistent pattern of customer spending.
 
@@ -69,19 +69,19 @@ Looking into the furure and taking the example of February 20, the forecast pred
 
 ![Alt text](https://github.com/jimiatro/Power_Bi_Pizza_Project_Insights/blob/main/images/3.png)
 
-#### Sales By Size
+#### Slicers
 In order to provide a interactive experience, I've added two slicers into the dashboard: the Category Slicer and the Size Slicer. These slicers offer a focused and dynamic way to explore the data. With the Category Slicer, you can delve into sales trends for different pizza categories. On the other hand, the Size Slicer allows you to examine how different pizza sizes impact overall sales performance. These slicers give you the power to tailor your analysis based on your specific interests and questions, making it easier to uncover insights and trends.
 
 ![Alt text](https://github.com/jimiatro/Power_Bi_Pizza_Project_Insights/blob/main/images/8.png)
 
-## Suggestions:
+# Suggestions #
 - **Strategic Marketing**: Focusing marketing efforts on top-selling categories like "Classic," "Supreme," and "Chicken" can further boost sales. Special deals or promotions could target these categories to capitalize on customer preferences.
 
 - **Size Emphasis**: Given the popularity of "Large" and "Medium" sizes, the pizzeria could optimize stock and resources for these sizes, ensuring customer satisfaction.
 
 - **Efficiency Observations**: Utilizing the sales forecasting insights, the pizzeria can gain more informed insights into ingredient acquisition, staff scheduling, and production capacity.
 
-## License
+# License #
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
