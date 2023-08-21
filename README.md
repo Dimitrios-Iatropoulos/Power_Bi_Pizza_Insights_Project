@@ -9,7 +9,7 @@ The following data transformation steps were taken:
 - Renamed the column names from "pizza_name," "pizza_size," "quantity," and "category" to "Name," "Size," "Quantity," and "Category." 
 -	A Calendar table was created from "order_date" column using the following DAX:
   
-` calendar = calendar(min(pizza_sales[order_date]), max(pizza_sales[order_date]))`
+`calendar = calendar(min(pizza_sales[order_date]), max(pizza_sales[order_date]))`
 -	Established the relationship between the two tables manually.
 
 # DAX Measures #
